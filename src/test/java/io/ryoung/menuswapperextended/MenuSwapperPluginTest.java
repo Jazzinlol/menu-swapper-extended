@@ -35,4 +35,5 @@ public class MenuSwapperPluginTest
 		ExternalPluginManager.loadBuiltin(MenuSwapperPlugin.class);
 		RuneLite.main(args);
 	}
+	swap("wield", s -> s.contains("dart"), "use", () -> true);
 }
